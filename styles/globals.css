@@ -20,7 +20,7 @@
 
 .main:before {
   /* background-image: url("/assetss/images/blockchain.gif"); */
-  background-size: cover;
+  /* background-size: cover; */
   position: absolute;
   content: "";
   z-index: 2;
