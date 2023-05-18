@@ -28,7 +28,7 @@ const RootLayout = ({ children }) => {
           transform: "translate(-50%, -50%)",
         }}
       >
-        <source src="/assetss/videos/blockchain.mp4" type="video/mp4" />
+        <source src="/blockchain.mp4" type="video/mp4" />
       </video>
       <body>
         <div className="main">
