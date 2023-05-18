@@ -14,9 +14,22 @@ const RootLayout = ({ children }) => {
   return (
     <>
       <Head>
-        <link rel="icon" href="public/assetss/images/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
         {/* You can add more head tags here as needed */}
       </Head>
+      <video
+        autoPlay
+        loop
+        muted
+        className="fixed z-0 w-auto min-h-full min-w-full"
+        style={{
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%, -50%)",
+        }}
+      >
+        <source src="/assetss/videos/blockchain.mp4" type="video/mp4" />
+      </video>
       <body>
         <div className="main">
           <div className="gradient" />
