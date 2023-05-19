@@ -10,11 +10,16 @@ const Home = () => {
         <br className="hidden md:inline" />
         <span className="text-white block mt-2 text-lg sm:text-xl md:text-2xl lg:text-3xl">
           Securing Documents & empowering trust using blockchain technology
+          <br className="hidden md:inline" />
+          <span className="text-white block mt-2 text-lg sm:text-xl md:text-2xl lg:text-3xl">
+            This project is part of the doctoral research being conducted by
+            Hamza ZRAIMEK, under the supervision of Professor El Mehdi Ferrouhi.
+          </span>
         </span>
       </h1>
-      {/* <p className="desc text-center mt-4 text-sm sm:text-base md:text-lg lg:text-xl">
-        This is a scientific project...
-      </p> */}
+      <p className="desc text-center mt-4 text-sm sm:text-base md:text-lg lg:text-xl">
+        Laboratory of Economy and Management of Organizations
+      </p>
       <Feed />
     </section>
   );
