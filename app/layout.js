@@ -29,17 +29,18 @@ const RootLayout = ({ children }) => {
         }}
       >
         <source src="/blockchain.mp4" type="video/mp4" />
+
+        <body>
+          <div className="main">
+            <div className="gradient" />
+          </div>
+          <main className="app">
+            <Navbar />
+            {children}
+            <Footer />
+          </main>
+        </body>
       </video>
-      <body>
-        <div className="main">
-          <div className="gradient" />
-        </div>
-        <main className="app">
-          <Navbar />
-          {children}
-          <Footer />
-        </main>
-      </body>
     </>
   );
 };
