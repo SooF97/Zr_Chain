@@ -19,7 +19,7 @@
 }
 
 .main:before {
-  background-image: url("https://www.clicknjump.com/wp-content/uploads/2021/03/anim-bg.gif"); 
+  background-image: url("/assetss/images/main.jpg"); 
   background-size: cover;
   position: absolute;
   content: "";
@@ -83,7 +83,7 @@
 }
 
 .outline_btn {
-  @apply rounded-full border border-black bg-transparent py-1.5 px-5 text-black transition-all hover:bg-black hover:text-white text-center text-sm font-inter flex items-center justify-center;
+  @apply rounded-full border border-white bg-white py-1.5 px-5 text-black transition-all hover:bg-orange-400 hover:border-orange-400 hover:text-black text-center text-sm font-inter flex items-center justify-center;
 }
 
 .head_text {

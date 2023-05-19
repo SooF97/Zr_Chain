@@ -24,13 +24,16 @@ const Navbar = () => {
           <Link href="/" className="white_btn">
             Home
           </Link>
+          <Link href="/about" className="white_btn">
+            About
+          </Link>
           <Link href="/adminAccess" className="white_btn">
             Admin Access
           </Link>
-          <Link href="/Verify" className="white_btn">
+          <Link href="/verify" className="white_btn">
             Verify
           </Link>
-          <Link href="/Advantages" className="white_btn">
+          <Link href="/advantages" className="white_btn">
             Advantages
           </Link>
 
@@ -41,7 +44,7 @@ const Navbar = () => {
       <div className="sm:hidden flex relative">
         <div className="flex">
           <Image
-            src="/assetss/icons/menu.svg"
+            src="/assetss/images/down.png"
             width={30}
             height={30}
             className=""
@@ -59,6 +62,13 @@ const Navbar = () => {
                 Home
               </Link>
               <Link
+                href="/about"
+                className="dropdown_link "
+                onClick={() => setToggleDropdown(false)}
+              >
+                About
+              </Link>
+              <Link
                 href="/adminAccess"
                 className="dropdown_link "
                 onClick={() => setToggleDropdown(false)}
@@ -66,14 +76,14 @@ const Navbar = () => {
                 Admin Access
               </Link>
               <Link
-                href="/Verify"
+                href="/verify"
                 className="dropdown_link "
                 onClick={() => setToggleDropdown(false)}
               >
                 Verify
               </Link>
               <Link
-                href="/Advantages"
+                href="/advantages"
                 className="dropdown_link "
                 onClick={() => setToggleDropdown(false)}
               >
