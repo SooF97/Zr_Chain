@@ -22,7 +22,7 @@
     "framer-motion": "^10.12.9",
     "hardhat": "^2.14.0",
     "ipfs-http-client": "^60.0.0",
-    "next": "13.4.1",
+    "next": "^13.3.0",
     "next-auth": "^4.22.1",
     "postcss": "8.4.23",
     "react": "18.2.0",
